@@ -1,0 +1,14 @@
+```{r setup, include=FALSE, echo=FALSE, eval=TRUE, message=FALSE, warning=FALSE}
+suppressPackageStartupMessages( {
+  library( tidyverse )
+  library( devtools )
+  library( roxygen2 )
+  library( testthat )
+  library( usethis )
+  library( rvest )
+  library( stringr )
+  library( refinr )
+  library( readxl )
+  library( cowplot )
+} )
+```
